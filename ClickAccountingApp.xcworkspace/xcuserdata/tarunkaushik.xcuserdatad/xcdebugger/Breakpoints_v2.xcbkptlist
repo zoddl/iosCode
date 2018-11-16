@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClickAccountingApp/WebServiceHelperClass/ServiceHelper.swift"
+            timestampString = "552897714.883086"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "postAction()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClickAccountingApp/ViewControllers/GalleryDetail/CAGalleryDetailViewController.swift"
+            timestampString = "552916893.7811069"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1221"
+            endingLineNumber = "1221"
+            landmarkName = "loadWebViewData(url:webView:placeHolderImageView:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZoddL.CAGalleryDetailViewController.loadWebViewData(url: Foundation.URL, webView: __ObjC.UIWebView, placeHolderImageView: __ObjC.UIImageView) -&gt; ()"
+                  moduleName = "ZoddL"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tarunkaushik/Documents/IOS/ClickAccountingApp/ViewControllers/GalleryDetail/CAGalleryDetailViewController.swift"
+                  timestampString = "552916895.139161"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1221"
+                  endingLineNumber = "1221"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in ZoddL.CAGalleryDetailViewController.loadWebViewData(url: Foundation.URL, webView: __ObjC.UIWebView, placeHolderImageView: __ObjC.UIImageView) -&gt; ()"
+                  moduleName = "ZoddL"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tarunkaushik/Documents/IOS/ClickAccountingApp/ViewControllers/GalleryDetail/CAGalleryDetailViewController.swift"
+                  timestampString = "552916895.141528"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1222"
+                  endingLineNumber = "1222"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

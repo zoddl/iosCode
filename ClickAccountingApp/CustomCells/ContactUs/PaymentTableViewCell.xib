@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Calibri.ttf">
+            <string>Calibri</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PaymentTableViewCell" rowHeight="76" id="KGk-i7-Jjw" customClass="PaymentTableViewCell" customModule="ClickAccountingApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="65.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12/06/2023" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x57-eQ-8MP">
+                        <rect key="frame" x="21" y="8" width="291" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="NyO-Vk-JXv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8GS-yl-XKH">
+                        <rect key="frame" x="21" y="31" width="295" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="eUt-IC-eiQ"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="295" id="rb3-Nk-rb3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="15"/>
+                        <color key="textColor" red="0.43134844303131104" green="0.4313892126083374" blue="0.43131446838378906" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nP3-78-dcF">
+                        <rect key="frame" x="0.0" y="58" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.76074403524398804" green="0.76081240177154541" blue="0.76068693399429321" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="0tf-9s-Uch"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="x57-eQ-8MP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="21" id="30n-aO-5n4"/>
+                    <constraint firstItem="nP3-78-dcF" firstAttribute="top" secondItem="8GS-yl-XKH" secondAttribute="bottom" constant="6" id="39l-vs-fXj"/>
+                    <constraint firstItem="nP3-78-dcF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="A6c-fl-8jc"/>
+                    <constraint firstItem="8GS-yl-XKH" firstAttribute="top" secondItem="x57-eQ-8MP" secondAttribute="bottom" constant="2" id="Aun-6q-Xvb"/>
+                    <constraint firstAttribute="trailing" secondItem="8GS-yl-XKH" secondAttribute="trailing" constant="4" id="ObU-fF-ChD"/>
+                    <constraint firstItem="nP3-78-dcF" firstAttribute="top" secondItem="8GS-yl-XKH" secondAttribute="bottom" constant="6" id="a4l-TY-700"/>
+                    <constraint firstAttribute="trailing" secondItem="nP3-78-dcF" secondAttribute="trailing" id="dOr-77-UX1"/>
+                    <constraint firstItem="x57-eQ-8MP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="gXD-rP-o6V"/>
+                    <constraint firstItem="8GS-yl-XKH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="21" id="nlb-Qz-Z6q"/>
+                    <constraint firstAttribute="trailing" secondItem="x57-eQ-8MP" secondAttribute="trailing" constant="8" id="roH-Z2-aZE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateLabel" destination="x57-eQ-8MP" id="w8G-i4-KFa"/>
+                <outlet property="messageLabel" destination="8GS-yl-XKH" id="M9z-wB-D96"/>
+                <outlet property="sepratorLabel2" destination="nP3-78-dcF" id="Ckz-Cg-zGE"/>
+            </connections>
+            <point key="canvasLocation" x="99" y="75"/>
+        </tableViewCell>
+    </objects>
+</document>

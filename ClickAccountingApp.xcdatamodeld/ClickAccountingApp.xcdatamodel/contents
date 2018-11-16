@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Document" representedClassName="Document" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdTime" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="docImageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="docPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="docType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isUploaded" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="primaryName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="secondaryTag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tagDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tagDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tagStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tagType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="NotificationTable" representedClassName="NotificationTable" syncable="YES" codeGenerationType="class">
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notificationKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="USER" representedClassName="USER" syncable="YES" codeGenerationType="class"/>
+    <elements>
+        <element name="Document" positionX="-63" positionY="-18" width="128" height="225"/>
+        <element name="NotificationTable" positionX="-63" positionY="72" width="128" height="90"/>
+        <element name="USER" positionX="-63" positionY="-18" width="128" height="45"/>
+    </elements>
+</model>

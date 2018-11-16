@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClickAccountingApp/ViewControllers/SearchBar/CASearchBarViewController.swift"
+            timestampString = "543478666.2017111"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClickAccountingApp/ViewControllers/GalleryDetail/CAGalleryDetailViewController.swift"
+            timestampString = "543741692.928457"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1054"
+            endingLineNumber = "1054"
+            landmarkName = "getItemDetails()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClickAccountingApp/ViewControllers/GalleryDetail/CAGalleryDetailViewController.swift"
+            timestampString = "543741692.928538"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1058"
+            endingLineNumber = "1058"
+            landmarkName = "getItemDetails()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClickAccountingApp/ViewControllers/GalleryDocument/CAGalleryDocumentViewController.swift"
+            timestampString = "543741692.9286079"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "806"
+            endingLineNumber = "806"
+            landmarkName = "addDelegateWithDetailsAndIsSubmit(details:isSubmit:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClickAccountingApp/ViewControllers/AddTag/CAAddTagPopUpViewController.swift"
+            timestampString = "543491783.695006"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "680"
+            endingLineNumber = "680"
+            landmarkName = "cancelClicked()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClickAccountingApp/ViewControllers/AddTag/CAAddTagPopUpViewController.swift"
+            timestampString = "543491784.2155221"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "679"
+            endingLineNumber = "679"
+            landmarkName = "cancelClicked()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZoddL.CAAddTagPopUpViewController.cancelClicked() -&gt; ()"
+                  moduleName = "ZoddL"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apptology/Documents/Zoddl_iOS/ClickAccountingApp/ViewControllers/AddTag/CAAddTagPopUpViewController.swift"
+                  timestampString = "543762375.249015"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "679"
+                  endingLineNumber = "679"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in ZoddL.CAAddTagPopUpViewController.cancelClicked() -&gt; ()"
+                  moduleName = "ZoddL"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apptology/Documents/Zoddl_iOS/ClickAccountingApp/ViewControllers/AddTag/CAAddTagPopUpViewController.swift"
+                  timestampString = "543762375.252211"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "680"
+                  endingLineNumber = "680"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/TOCropViewController/TOCropViewController/TOCropViewController.m"
+            timestampString = "543496585.158914"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "692"
+            endingLineNumber = "692"
+            landmarkName = "-cancelButtonTapped"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClickAccountingApp/ViewControllers/GalleryDetail/CAGalleryDetailViewController.swift"
+            timestampString = "543741692.929947"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1045"
+            endingLineNumber = "1045"
+            landmarkName = "getItemDetails()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClickAccountingApp/ViewControllers/GalleryDetail/CAGalleryDetailViewController.swift"
+            timestampString = "543741692.9300129"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1037"
+            endingLineNumber = "1037"
+            landmarkName = "getItemDetails()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClickAccountingApp/ViewControllers/Home/CAHomeViewController.swift"
+            timestampString = "543753972.987746"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "895"
+            endingLineNumber = "895"
+            landmarkName = "catAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClickAccountingApp/ViewControllers/GalleryDocument/CAGalleryDocumentViewController.swift"
+            timestampString = "543741692.932723"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "541"
+            endingLineNumber = "541"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClickAccountingApp/ViewControllers/TagList/CATagListViewController.swift"
+            timestampString = "543743829.159548"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1436"
+            endingLineNumber = "1436"
+            landmarkName = "getMonthlyDataOfTagType()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZoddL.CATagListViewController.getMonthlyDataOfTagType() -&gt; ()"
+                  moduleName = "ZoddL"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apptology/Documents/Zoddl_iOS/ClickAccountingApp/ViewControllers/TagList/CATagListViewController.swift"
+                  timestampString = "543762375.286772"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1437"
+                  endingLineNumber = "1437"
+                  offsetFromSymbolStart = "2904">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.AnyObject&gt;, Swift.Optional&lt;__ObjC.NSError&gt;) -&gt; () in ZoddL.CATagListViewController.getMonthlyDataOfTagType() -&gt; ()"
+                  moduleName = "ZoddL"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apptology/Documents/Zoddl_iOS/ClickAccountingApp/ViewControllers/TagList/CATagListViewController.swift"
+                  timestampString = "543762375.289786"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1439"
+                  endingLineNumber = "1439"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

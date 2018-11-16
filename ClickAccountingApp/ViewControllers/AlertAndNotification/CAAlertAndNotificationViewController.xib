@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Calibri.ttf">
+            <string>Calibri</string>
+        </array>
+        <array key="nunito.light.ttf">
+            <string>Nunito-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CAAlertAndNotificationViewController" customModule="ZoddL" customModuleProvider="target">
+            <connections>
+                <outlet property="navBarTitleLabel" destination="400-pj-COS" id="KyT-QV-g6N"/>
+                <outlet property="navigationBackView" destination="qhC-nO-PoG" id="aVp-Ll-0Jj"/>
+                <outlet property="noNotificationLabel" destination="fj3-QD-Lz1" id="YtJ-Qc-RK9"/>
+                <outlet property="tableView" destination="QlJ-Xb-Ngd" id="Isx-X5-5xp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qhC-nO-PoG" customClass="CANavigationView" customModule="ZoddL" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                    <subviews>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ncz-4V-4sQ">
+                            <rect key="frame" x="340" y="32" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="87S-pN-ukt"/>
+                                <constraint firstAttribute="width" constant="20" id="ld7-iL-A77"/>
+                            </constraints>
+                            <state key="normal" image="icon33">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="plusButtonAction:" destination="-1" eventType="touchUpInside" id="Ysf-FN-5RH"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBM-c0-rzp">
+                            <rect key="frame" x="10" y="29.5" width="25" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="25" id="Ard-y7-gPF"/>
+                                <constraint firstAttribute="height" constant="25" id="kR7-k3-Cp6"/>
+                            </constraints>
+                            <state key="normal" image="icon34">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="backButtonAction:" destination="-1" eventType="touchUpInside" id="CBO-Qs-IBR"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alert &amp; Notification" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="400-pj-COS">
+                            <rect key="frame" x="117" y="22" width="142" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="91" id="BbG-FH-70Z"/>
+                                <constraint firstAttribute="height" constant="40" id="FQA-Iz-foX"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Ncz-4V-4sQ" firstAttribute="centerY" secondItem="qhC-nO-PoG" secondAttribute="centerY" constant="10" id="0Ot-GI-Pvc"/>
+                        <constraint firstItem="dBM-c0-rzp" firstAttribute="leading" secondItem="qhC-nO-PoG" secondAttribute="leading" constant="10" id="E0V-yX-oPw"/>
+                        <constraint firstItem="400-pj-COS" firstAttribute="centerY" secondItem="qhC-nO-PoG" secondAttribute="centerY" constant="10" id="HQk-zH-Iat"/>
+                        <constraint firstAttribute="height" constant="64" id="UZS-6L-YHX"/>
+                        <constraint firstItem="400-pj-COS" firstAttribute="centerX" secondItem="qhC-nO-PoG" secondAttribute="centerX" id="g98-vq-Mcw"/>
+                        <constraint firstAttribute="trailing" secondItem="Ncz-4V-4sQ" secondAttribute="trailing" constant="15" id="ina-aQ-5nq"/>
+                        <constraint firstItem="dBM-c0-rzp" firstAttribute="centerY" secondItem="qhC-nO-PoG" secondAttribute="centerY" constant="10" id="kNj-H3-Efv"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QlJ-Xb-Ngd" customClass="TPKeyboardAvoidingTableView">
+                    <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="uqs-tZ-qYb"/>
+                        <outlet property="delegate" destination="-1" id="axX-f3-ioR"/>
+                    </connections>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NO NOTIFICATIONS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fj3-QD-Lz1">
+                    <rect key="frame" x="31.5" y="323" width="312" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="rDW-P3-4SA"/>
+                        <constraint firstAttribute="width" constant="312" id="tOj-3z-TDC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Nunito-Light" family="Nunito" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="qhC-nO-PoG" secondAttribute="trailing" id="1Dj-Sm-bwb"/>
+                <constraint firstItem="qhC-nO-PoG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="7ZX-cG-bkU"/>
+                <constraint firstItem="qhC-nO-PoG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="8W8-ip-27I"/>
+                <constraint firstItem="QlJ-Xb-Ngd" firstAttribute="top" secondItem="qhC-nO-PoG" secondAttribute="bottom" id="Afs-P3-Agz"/>
+                <constraint firstItem="fj3-QD-Lz1" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="IQb-cc-hzh"/>
+                <constraint firstAttribute="bottom" secondItem="QlJ-Xb-Ngd" secondAttribute="bottom" id="NXb-7w-txy"/>
+                <constraint firstItem="QlJ-Xb-Ngd" firstAttribute="top" secondItem="qhC-nO-PoG" secondAttribute="bottom" id="R3V-vO-tez"/>
+                <constraint firstItem="QlJ-Xb-Ngd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="RUq-pk-VLA"/>
+                <constraint firstAttribute="trailing" secondItem="QlJ-Xb-Ngd" secondAttribute="trailing" id="fHm-TL-2o0"/>
+                <constraint firstItem="fj3-QD-Lz1" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jyS-b4-hrR"/>
+            </constraints>
+            <point key="canvasLocation" x="-182.5" y="24.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon33" width="33" height="33"/>
+        <image name="icon34" width="33" height="33"/>
+    </resources>
+</document>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CABaseContainerViewController" customModule="ZoddL" customModuleProvider="target">
+            <connections>
+                <outlet property="cameraButton" destination="op0-Tx-B90" id="ydU-IB-sfd"/>
+                <outlet property="containerView" destination="S5Q-Uu-ymy" id="UXA-Av-j3c"/>
+                <outlet property="documentButton" destination="llg-Rh-8Zj" id="dW7-JM-jXX"/>
+                <outlet property="galleryButton" destination="9mm-13-2Rz" id="hcy-5O-xb4"/>
+                <outlet property="homeButton" destination="auL-uc-H9a" id="Fpn-KD-ik8"/>
+                <outlet property="reportButton" destination="Rvm-t7-h0r" id="hQn-it-9Wq"/>
+                <outlet property="tabBarHeight" destination="rWN-gb-45x" id="Qkq-FG-p9Q"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h5b-XB-Who">
+                    <rect key="frame" x="0.0" y="607" width="375" height="60"/>
+                    <subviews>
+                        <button opaque="NO" tag="91" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auL-uc-H9a" customClass="CAButton" customModule="ZoddL" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="75" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="6yy-91-Kx1"/>
+                            </constraints>
+                            <state key="normal" image="icon21"/>
+                            <state key="selected" image="icon16"/>
+                            <connections>
+                                <action selector="commonButtonAction:" destination="-1" eventType="touchUpInside" id="g4J-uh-qnw"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="92" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mm-13-2Rz" customClass="CAButton" customModule="ZoddL" customModuleProvider="target">
+                            <rect key="frame" x="75" y="0.0" width="75" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="a1I-g6-46o"/>
+                            </constraints>
+                            <state key="normal" image="icon23"/>
+                            <state key="selected" image="icon20"/>
+                            <connections>
+                                <action selector="commonButtonAction:" destination="-1" eventType="touchUpInside" id="bo6-Sh-8Zh"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="94" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rvm-t7-h0r" customClass="CAButton" customModule="ZoddL" customModuleProvider="target">
+                            <rect key="frame" x="225" y="0.0" width="75" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="G6H-cS-afb"/>
+                            </constraints>
+                            <state key="normal" image="icon12"/>
+                            <state key="selected" image="icon17"/>
+                            <connections>
+                                <action selector="commonButtonAction:" destination="-1" eventType="touchUpInside" id="lVC-Sz-Sip"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="95" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="llg-Rh-8Zj" customClass="CAButton" customModule="ZoddL" customModuleProvider="target">
+                            <rect key="frame" x="300" y="0.0" width="75" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="Pji-dA-dci"/>
+                            </constraints>
+                            <state key="normal" image="icon24"/>
+                            <state key="selected" image="icon13"/>
+                            <connections>
+                                <action selector="commonButtonAction:" destination="-1" eventType="touchUpInside" id="Z15-1I-pcZ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="93" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="op0-Tx-B90" customClass="CAButton" customModule="ZoddL" customModuleProvider="target">
+                            <rect key="frame" x="150" y="0.0" width="75" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="1vV-YD-KSC"/>
+                            </constraints>
+                            <state key="normal" image="icon14"/>
+                            <state key="selected" image="icon14"/>
+                            <connections>
+                                <action selector="commonButtonAction:" destination="-1" eventType="touchUpInside" id="YFa-lZ-ctR"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="Rvm-t7-h0r" firstAttribute="top" secondItem="h5b-XB-Who" secondAttribute="top" id="0ch-ob-41s"/>
+                        <constraint firstItem="auL-uc-H9a" firstAttribute="top" secondItem="h5b-XB-Who" secondAttribute="top" id="4CM-mT-qlp"/>
+                        <constraint firstItem="9mm-13-2Rz" firstAttribute="top" secondItem="h5b-XB-Who" secondAttribute="top" id="4fc-Qu-chc"/>
+                        <constraint firstItem="auL-uc-H9a" firstAttribute="leading" secondItem="h5b-XB-Who" secondAttribute="leading" id="4jr-Op-gVe"/>
+                        <constraint firstItem="op0-Tx-B90" firstAttribute="width" secondItem="auL-uc-H9a" secondAttribute="width" id="AXq-L9-qID"/>
+                        <constraint firstItem="op0-Tx-B90" firstAttribute="leading" secondItem="9mm-13-2Rz" secondAttribute="trailing" id="EYa-88-bBf"/>
+                        <constraint firstItem="Rvm-t7-h0r" firstAttribute="width" secondItem="auL-uc-H9a" secondAttribute="width" id="ItT-Ae-dp1"/>
+                        <constraint firstAttribute="trailing" secondItem="llg-Rh-8Zj" secondAttribute="trailing" id="N6y-aR-lKd"/>
+                        <constraint firstItem="Rvm-t7-h0r" firstAttribute="leading" secondItem="op0-Tx-B90" secondAttribute="trailing" id="Om6-9i-98E"/>
+                        <constraint firstItem="9mm-13-2Rz" firstAttribute="width" secondItem="auL-uc-H9a" secondAttribute="width" id="Rs1-jf-Pay"/>
+                        <constraint firstItem="llg-Rh-8Zj" firstAttribute="width" secondItem="auL-uc-H9a" secondAttribute="width" id="YlM-wn-zal"/>
+                        <constraint firstItem="llg-Rh-8Zj" firstAttribute="leading" secondItem="Rvm-t7-h0r" secondAttribute="trailing" id="e3j-3b-XJi"/>
+                        <constraint firstItem="9mm-13-2Rz" firstAttribute="leading" secondItem="auL-uc-H9a" secondAttribute="trailing" id="hXF-pU-SwG"/>
+                        <constraint firstItem="op0-Tx-B90" firstAttribute="top" secondItem="h5b-XB-Who" secondAttribute="top" id="n8t-qc-mdw"/>
+                        <constraint firstItem="llg-Rh-8Zj" firstAttribute="top" secondItem="h5b-XB-Who" secondAttribute="top" id="nhn-GH-s0m"/>
+                        <constraint firstAttribute="height" constant="60" id="rWN-gb-45x"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S5Q-Uu-ymy">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="607"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="h5b-XB-Who" firstAttribute="top" secondItem="S5Q-Uu-ymy" secondAttribute="bottom" id="DWN-hv-avY"/>
+                <constraint firstAttribute="bottom" secondItem="h5b-XB-Who" secondAttribute="bottom" id="FyS-Wk-EwZ"/>
+                <constraint firstAttribute="trailing" secondItem="h5b-XB-Who" secondAttribute="trailing" id="WJ1-nl-Zf1"/>
+                <constraint firstAttribute="trailing" secondItem="S5Q-Uu-ymy" secondAttribute="trailing" id="jvn-dg-iMs"/>
+                <constraint firstItem="S5Q-Uu-ymy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="m4t-lo-mfn"/>
+                <constraint firstItem="h5b-XB-Who" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="y0k-Wa-lFJ"/>
+                <constraint firstItem="S5Q-Uu-ymy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="y23-Pe-2Ns"/>
+            </constraints>
+            <point key="canvasLocation" x="-312" y="52"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon12" width="33" height="33"/>
+        <image name="icon13" width="33" height="33"/>
+        <image name="icon14" width="33" height="33"/>
+        <image name="icon16" width="33" height="33"/>
+        <image name="icon17" width="33" height="33"/>
+        <image name="icon20" width="33" height="33"/>
+        <image name="icon21" width="33" height="33"/>
+        <image name="icon23" width="33" height="33"/>
+        <image name="icon24" width="33" height="33"/>
+    </resources>
+</document>
